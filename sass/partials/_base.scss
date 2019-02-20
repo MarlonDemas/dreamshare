@@ -42,4 +42,17 @@ body {
             }
         }
     }
+    .section {
+        .container {
+            max-width: 60%;
+            h3 {
+                font-family: $montserrat !important;
+                margin-bottom: 2em;
+            }
+            .column {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
 }

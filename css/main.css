@@ -31,5 +31,13 @@ body header {
   body header .hero-body .button {
     background-color: #FF4E50;
     border-color: #FF4E50; }
+body .section .container {
+  max-width: 60%; }
+  body .section .container h3 {
+    font-family: "Montserrat", sans-serif !important;
+    margin-bottom: 2em; }
+  body .section .container .column {
+    display: flex;
+    justify-content: center; }
 
 /*# sourceMappingURL=main.css.map */

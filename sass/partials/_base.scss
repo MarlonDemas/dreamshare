@@ -44,14 +44,55 @@ body {
     }
     .section {
         .container {
-            max-width: 60%;
-            h3 {
+            max-width: 72%;
+            h2 {
                 font-family: $montserrat !important;
                 margin-bottom: 2em;
             }
+            h3 {
+                font-family: $montserrat !important;
+                padding: 1em;
+                margin: 0 !important;
+            }
+            .image {
+                margin: auto;
+                position: relative;
+                .backg {
+                    position: absolute;
+                    right: 0;
+                    bottom: 5%;
+                    width: 25%;
+                    height: 25%;
+                    background-color: $pink;
+                    border-radius: 50%;
+                    .ovr-img {
+                        position: absolute;
+                        right: 20%;
+                        bottom: 17%;
+                        width: 20px;
+                        height: 20px;
+                        color: white !important;
+                    }
+                }
+            }
+            p {
+                font-family: $roboto;
+                font-weight: 100 !important;
+                color: $grey;
+            }
             .column {
-                display: flex;
-                justify-content: center;
+                padding: 0 !important;
+                margin: 1em 0.75em;
+            }
+            .button {
+                color: $pink;
+                border-color: $pink;
+                border-width: 2px;
+                display: block;
+                margin: 5em auto;
+                font-family: $montserrat;
+                font-weight: 500 !important;
+                font-size: 0.9em;
             }
         }
     }

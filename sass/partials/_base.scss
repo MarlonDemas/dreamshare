@@ -1,0 +1,18 @@
+header {
+    background: url('../assets/headerBackground.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    h1 {
+        margin: auto;
+        width: 40%;
+        padding-bottom: 5vh;
+        font-family: 'Roboto', sans-serif;
+    }
+    h2 {
+        padding-bottom: 3vh;
+    }
+    .button {
+        background-color: $pink;
+        border-color: $pink;
+    }
+}

@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Montserrat");
+header {
+  background: url("../assets/headerBackground.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+header h1 {
+  margin: auto;
+  width: 40%;
+  padding-bottom: 5vh;
+  font-family: "Roboto", sans-serif;
+}
+header h2 {
+  padding-bottom: 3vh;
+}
+header .button {
+  background-color: #FF4E50;
+  border-color: #FF4E50;
+}
+
+/*# sourceMappingURL=main.css.map */

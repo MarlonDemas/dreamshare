@@ -1,18 +1,45 @@
-header {
-    background: url('../assets/headerBackground.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    h1 {
-        margin: auto;
-        width: 40%;
-        padding-bottom: 5vh;
-        font-family: 'Roboto', sans-serif;
-    }
-    h2 {
-        padding-bottom: 3vh;
-    }
-    .button {
-        background-color: $pink;
-        border-color: $pink;
+body {
+    header {
+        background: url('../assets/headerBackground.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: $montserrat;
+        nav {
+            position: fixed;
+            display: flex;
+            padding: 3em 17em;
+            h2 {
+                font-size: 1.2em;
+            }
+            ul {
+                padding-left: 17em;
+                a {
+                    padding: .4em 1em;
+                    color: white;
+                    font-family: $roboto;
+                    font-weight: 400;
+                }
+                #signUp {
+                    border: 2px solid white;
+                    border-radius: 2em;
+                }
+            }
+        }
+        h1 {
+            margin: auto;
+            width: 40%;
+            padding-bottom: 5vh;
+        }
+        p {
+            padding-bottom: 3vh;
+            font-family: $roboto;
+            font-weight: 100 !important;
+        }
+        .hero-body {
+            .button {
+                background-color: $pink;
+                border-color: $pink;
+            }
+        }
     }
 }

@@ -1,5 +1,12 @@
-// All variables for css
-@import url('https://fonts.googleapis.com/css?family=Roboto|Montserrat');
+// Declaring all global variables
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400|Montserrat:700');
+
+$montserrat: 'Montserrat', sans-serif;
+$roboto: 'Roboto', sans-serif;
+
+// Colors
 $pink: #FF4E50;
 $green: #18D4CA;
 $orange: #FFA710;

@@ -1,21 +1,35 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto|Montserrat");
-header {
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,400|Montserrat:700");
+body header {
   background: url("../assets/headerBackground.jpg");
   background-size: cover;
   background-attachment: fixed;
-}
-header h1 {
-  margin: auto;
-  width: 40%;
-  padding-bottom: 5vh;
-  font-family: "Roboto", sans-serif;
-}
-header h2 {
-  padding-bottom: 3vh;
-}
-header .button {
-  background-color: #FF4E50;
-  border-color: #FF4E50;
-}
+  font-family: "Montserrat", sans-serif; }
+  body header nav {
+    position: fixed;
+    display: flex;
+    padding: 3em 17em; }
+    body header nav h2 {
+      font-size: 1.2em; }
+    body header nav ul {
+      padding-left: 17em; }
+      body header nav ul a {
+        padding: .4em 1em;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400; }
+      body header nav ul #signUp {
+        border: 2px solid white;
+        border-radius: 2em; }
+  body header h1 {
+    margin: auto;
+    width: 40%;
+    padding-bottom: 5vh; }
+  body header p {
+    padding-bottom: 3vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100 !important; }
+  body header .hero-body .button {
+    background-color: #FF4E50;
+    border-color: #FF4E50; }
 
 /*# sourceMappingURL=main.css.map */

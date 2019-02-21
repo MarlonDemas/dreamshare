@@ -35,22 +35,52 @@ body .section .container .image {
   margin: auto;
   position: relative;
 }
+body .section .container .image #music {
+  background-color: #FF4E50 !important;
+}
+body .section .container .image #music .ovr-img {
+  position: absolute;
+  right: 25%;
+  bottom: 17%;
+}
+body .section .container .image #brush {
+  background-color: #18D4CA !important;
+}
+body .section .container .image #brush .ovr-img {
+  position: absolute;
+  right: 20%;
+  bottom: 20%;
+}
+body .section .container .image #camera {
+  background-color: #FFA710 !important;
+}
+body .section .container .image #camera .ovr-img {
+  position: absolute;
+  right: 20%;
+  bottom: 20%;
+}
+body .section .container .image #airplane {
+  background-color: #667DF3 !important;
+}
+body .section .container .image #airplane .ovr-img {
+  position: absolute;
+  right: 20%;
+  bottom: 20%;
+  transform: rotate(-30deg);
+}
 body .section .container .image .backg {
   position: absolute;
   right: 0;
   bottom: 5%;
   width: 25%;
   height: 25%;
-  background-color: #FF4E50;
   border-radius: 50%;
+  border: 3px solid white;
 }
 body .section .container .image .backg .ovr-img {
-  position: absolute;
-  right: 20%;
-  bottom: 17%;
-  width: 20px;
-  height: 20px;
-  color: white !important;
+  width: 15px;
+  height: 15px;
+  filter: invert(100%);
 }
 body .section .container p {
   font-family: "Roboto", sans-serif;

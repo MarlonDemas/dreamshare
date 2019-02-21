@@ -36,21 +36,51 @@ body {
             .image {
                 margin: auto;
                 position: relative;
+                #music {
+                    background-color: $pink !important;
+                    .ovr-img {
+                        position: absolute;
+                        right: 25%;
+                        bottom: 17%;
+                    }
+                }
+                #brush {
+                    background-color: $green !important;
+                    .ovr-img {
+                        position: absolute;
+                        right: 20%;
+                        bottom: 20%;
+                    }
+                }
+                #camera {
+                    background-color: $orange !important;
+                    .ovr-img {
+                        position: absolute;
+                        right: 20%;
+                        bottom: 20%;
+                    }
+                }
+                #airplane {
+                    background-color: $purple !important;
+                    .ovr-img {
+                        position: absolute;
+                        right: 20%;
+                        bottom: 20%;
+                        transform: rotate(-30deg);
+                    }
+                }
                 .backg {
                     position: absolute;
                     right: 0;
                     bottom: 5%;
                     width: 25%;
                     height: 25%;
-                    background-color: $pink;
                     border-radius: 50%;
+                    border: 3px solid white;
                     .ovr-img {
-                        position: absolute;
-                        right: 20%;
-                        bottom: 17%;
-                        width: 20px;
-                        height: 20px;
-                        color: white !important;
+                        width: 15px;
+                        height: 15px;
+                        filter: invert(100%);
                     }
                 }
             }

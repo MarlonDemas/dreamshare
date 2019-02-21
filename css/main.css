@@ -3,76 +3,74 @@ body header {
   background: url("../assets/headerBackground.jpg");
   background-size: cover;
   background-attachment: fixed;
-  font-family: "Montserrat", sans-serif; }
-  body header nav {
-    position: fixed;
-    display: flex;
-    padding: 3em 17em; }
-    body header nav h2 {
-      font-size: 1.2em; }
-    body header nav ul {
-      padding-left: 17em; }
-      body header nav ul a {
-        padding: .4em 1em;
-        color: white;
-        font-family: "Roboto", sans-serif;
-        font-weight: 400; }
-      body header nav ul #signUp {
-        border: 2px solid white;
-        border-radius: 2em; }
-  body header h1 {
-    margin: auto;
-    width: 40%;
-    padding-bottom: 5vh; }
-  body header p {
-    padding-bottom: 3vh;
-    font-family: "Roboto", sans-serif;
-    font-weight: 100 !important; }
-  body header .hero-body .button {
-    background-color: #FF4E50;
-    border-color: #FF4E50; }
+  font-family: "Montserrat", sans-serif;
+}
+body header h1 {
+  margin: auto;
+  width: 40%;
+  padding-bottom: 5vh;
+}
+body header p {
+  padding-bottom: 3vh;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100 !important;
+}
+body header .hero-body .button {
+  background-color: #FF4E50;
+  border-color: #FF4E50;
+}
 body .section .container {
-  max-width: 72%; }
-  body .section .container h2 {
-    font-family: "Montserrat", sans-serif !important;
-    margin-bottom: 2em; }
-  body .section .container h3 {
-    font-family: "Montserrat", sans-serif !important;
-    padding: 1em;
-    margin: 0 !important; }
-  body .section .container .image {
-    margin: auto;
-    position: relative; }
-    body .section .container .image .backg {
-      position: absolute;
-      right: 0;
-      bottom: 5%;
-      width: 25%;
-      height: 25%;
-      background-color: #FF4E50;
-      border-radius: 50%; }
-      body .section .container .image .backg .ovr-img {
-        position: absolute;
-        right: 20%;
-        bottom: 17%;
-        width: 20px;
-        height: 20px;
-        color: white !important; }
-  body .section .container p {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100 !important;
-    color: #666666; }
-  body .section .container .column {
-    padding: 0 !important;
-    margin: 1em 0.75em; }
-  body .section .container .button {
-    color: #FF4E50;
-    border-color: #FF4E50;
-    border-width: 2px;
-    display: block;
-    margin: 5em auto;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500 !important;
-    font-size: 0.9em; }
+  max-width: 77%;
+}
+body .section .container h2 {
+  font-family: "Montserrat", sans-serif !important;
+  margin-bottom: 2em;
+}
+body .section .container h3 {
+  font-family: "Montserrat", sans-serif !important;
+  padding: 1em;
+  margin: 0 !important;
+}
+body .section .container .image {
+  margin: auto;
+  position: relative;
+}
+body .section .container .image .backg {
+  position: absolute;
+  right: 0;
+  bottom: 5%;
+  width: 25%;
+  height: 25%;
+  background-color: #FF4E50;
+  border-radius: 50%;
+}
+body .section .container .image .backg .ovr-img {
+  position: absolute;
+  right: 20%;
+  bottom: 17%;
+  width: 20px;
+  height: 20px;
+  color: white !important;
+}
+body .section .container p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100 !important;
+  color: #666666;
+  font-size: 0.9em;
+}
+body .section .container .column {
+  padding: 0 !important;
+  margin: 1em 0.5em !important;
+}
+body .section .container .button {
+  color: #FF4E50;
+  border-color: #FF4E50;
+  border-width: 2px;
+  display: block;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500 !important;
+  font-size: 0.9em;
+}
 
 /*# sourceMappingURL=main.css.map */

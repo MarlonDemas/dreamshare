@@ -4,27 +4,6 @@ body {
         background-size: cover;
         background-attachment: fixed;
         font-family: $montserrat;
-        nav {
-            position: fixed;
-            display: flex;
-            padding: 3em 17em;
-            h2 {
-                font-size: 1.2em;
-            }
-            ul {
-                padding-left: 17em;
-                a {
-                    padding: .4em 1em;
-                    color: white;
-                    font-family: $roboto;
-                    font-weight: 400;
-                }
-                #signUp {
-                    border: 2px solid white;
-                    border-radius: 2em;
-                }
-            }
-        }
         h1 {
             margin: auto;
             width: 40%;
@@ -44,7 +23,7 @@ body {
     }
     .section {
         .container {
-            max-width: 72%;
+            max-width: 77%;
             h2 {
                 font-family: $montserrat !important;
                 margin-bottom: 2em;
@@ -79,17 +58,18 @@ body {
                 font-family: $roboto;
                 font-weight: 100 !important;
                 color: $grey;
+                font-size: 0.9em;
             }
             .column {
                 padding: 0 !important;
-                margin: 1em 0.75em;
+                margin: 1em 0.5em !important;
             }
             .button {
                 color: $pink;
                 border-color: $pink;
                 border-width: 2px;
                 display: block;
-                margin: 5em auto;
+                margin: auto;
                 font-family: $montserrat;
                 font-weight: 500 !important;
                 font-size: 0.9em;

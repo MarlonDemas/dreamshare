@@ -19,56 +19,58 @@ body header .hero-body .button {
   background-color: #FF4E50;
   border-color: #FF4E50;
 }
-body .section .container {
-  max-width: 77%;
+body .section .myContainer {
+  margin: 0 auto;
+  max-width: 85%;
+  padding: 4%;
 }
-body .section .container h2 {
+body .section .myContainer h2 {
   font-family: "Montserrat", sans-serif !important;
   margin-bottom: 2em;
 }
-body .section .container h3 {
+body .section .myContainer h3 {
   font-family: "Montserrat", sans-serif !important;
   padding: 1em;
   margin: 0 !important;
 }
-body .section .container .image {
+body .section .myContainer .image {
   margin: auto;
   position: relative;
 }
-body .section .container .image #music {
+body .section .myContainer .image #music {
   background-color: #FF4E50 !important;
 }
-body .section .container .image #music .ovr-img {
+body .section .myContainer .image #music .ovr-img {
   position: absolute;
   right: 25%;
   bottom: 17%;
 }
-body .section .container .image #brush {
+body .section .myContainer .image #brush {
   background-color: #18D4CA !important;
 }
-body .section .container .image #brush .ovr-img {
+body .section .myContainer .image #brush .ovr-img {
   position: absolute;
   right: 20%;
   bottom: 20%;
 }
-body .section .container .image #camera {
+body .section .myContainer .image #camera {
   background-color: #FFA710 !important;
 }
-body .section .container .image #camera .ovr-img {
+body .section .myContainer .image #camera .ovr-img {
   position: absolute;
   right: 20%;
   bottom: 20%;
 }
-body .section .container .image #airplane {
+body .section .myContainer .image #airplane {
   background-color: #667DF3 !important;
 }
-body .section .container .image #airplane .ovr-img {
+body .section .myContainer .image #airplane .ovr-img {
   position: absolute;
   right: 20%;
   bottom: 20%;
   transform: rotate(-30deg);
 }
-body .section .container .image .backg {
+body .section .myContainer .image .backg {
   position: absolute;
   right: 0;
   bottom: 5%;
@@ -77,22 +79,22 @@ body .section .container .image .backg {
   border-radius: 50%;
   border: 3px solid white;
 }
-body .section .container .image .backg .ovr-img {
+body .section .myContainer .image .backg .ovr-img {
   width: 15px;
   height: 15px;
   filter: invert(100%);
 }
-body .section .container p {
+body .section .myContainer p {
   font-family: "Roboto", sans-serif;
   font-weight: 100 !important;
   color: #666666;
   font-size: 0.9em;
 }
-body .section .container .column {
+body .section .myContainer .column {
   padding: 0 !important;
   margin: 1em 0.5em !important;
 }
-body .section .container .button {
+body .section .myContainer .button {
   color: #FF4E50;
   border-color: #FF4E50;
   border-width: 2px;

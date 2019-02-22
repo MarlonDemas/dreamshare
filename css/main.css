@@ -112,5 +112,20 @@ body .section .myContainer .button {
   font-weight: 500 !important;
   font-size: 0.9em;
 }
+body .footer {
+  border-top: 2px solid #FF4E50;
+}
+body .footer .myContainer {
+  max-width: 85%;
+  margin: 0 auto;
+}
+body .footer .myContainer .pink {
+  color: #FF4E50;
+}
+body .footer .myContainer p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100 !important;
+  color: #666666;
+}
 
 /*# sourceMappingURL=main.css.map */

@@ -118,4 +118,19 @@ body {
             }
         }
     }
+    .footer {
+        border-top: 2px solid $pink;
+        .myContainer {
+            max-width: 85%;
+            margin: 0 auto;
+            .pink {
+                color: $pink;
+            }
+            p {
+                font-family: $roboto;
+                font-weight: 100 !important;
+                color: $grey;
+            }
+        }
+    }
 }

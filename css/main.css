@@ -5,6 +5,36 @@ body header {
   background-attachment: fixed;
   font-family: "Montserrat", sans-serif;
 }
+body header .nav-color {
+  background-color: white !important;
+  max-width: 100%;
+  margin: 0;
+}
+body header .nav-color a {
+  color: #444444 !important;
+}
+body header .nav-color a strong {
+  color: #FF4E50;
+}
+body header nav {
+  max-width: 67%;
+  margin: 1.7em auto;
+}
+body header nav a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+body header nav a span {
+  border: 2px solid white;
+  border-radius: 2em;
+  padding: 0.2em 1em;
+}
+body header nav a:hover {
+  background-color: transparent !important;
+}
+body header nav #bold {
+  font-family: "Montserrat", sans-serif !important;
+}
 body header h1 {
   margin: auto;
   width: 40%;
@@ -89,9 +119,6 @@ body .section .myContainer p {
   font-weight: 100 !important;
   color: #666666;
   font-size: 0.9em;
-}
-body .section .myContainer .column img {
-  border-radius: 0.5em;
 }
 body .section .myContainer .column figure {
   border-radius: 0.5em;

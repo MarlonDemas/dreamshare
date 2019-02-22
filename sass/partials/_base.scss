@@ -4,6 +4,36 @@ body {
         background-size: cover;
         background-attachment: fixed;
         font-family: $montserrat;
+        .nav-color {
+            background-color: white !important;
+            max-width: 100%;
+            margin: 0;
+            a {
+                color: $darkGrey !important;
+                strong {
+                    color: $pink;
+                }
+            }
+        }
+        nav {
+            max-width: 67%;
+            margin: 1.7em auto;
+            a {
+                font-family: $roboto;
+                font-weight: 100;
+                span {
+                    border: 2px solid white;
+                    border-radius: 2em;
+                    padding: 0.2em 1em;
+                }
+                &:hover {
+                    background-color: transparent !important;
+                }
+            }
+            #bold {
+                font-family: $montserrat !important;
+            }
+        }
         h1 {
             margin: auto;
             width: 40%;
@@ -93,9 +123,6 @@ body {
                 font-size: 0.9em;
             }
             .column {
-                img {
-                    border-radius: 0.5em;
-                }
                 figure {
                     border-radius: 0.5em;
                     figcaption {

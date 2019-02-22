@@ -90,9 +90,17 @@ body .section .myContainer p {
   color: #666666;
   font-size: 0.9em;
 }
-body .section .myContainer .column {
-  padding: 0 !important;
-  margin: 1em 0.5em !important;
+body .section .myContainer .column img {
+  border-radius: 0.5em;
+}
+body .section .myContainer .column figure {
+  border-radius: 0.5em;
+}
+body .section .myContainer .column figure figcaption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 body .section .myContainer .button {
   color: #FF4E50;

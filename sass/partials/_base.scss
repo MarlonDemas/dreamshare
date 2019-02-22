@@ -93,8 +93,18 @@ body {
                 font-size: 0.9em;
             }
             .column {
-                padding: 0 !important;
-                margin: 1em 0.5em !important;
+                img {
+                    border-radius: 0.5em;
+                }
+                figure {
+                    border-radius: 0.5em;
+                    figcaption {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                    }
+                }
             }
             .button {
                 color: $pink;
